@@ -19,9 +19,23 @@ function findMinValue(arr){
 6) Be sure to print the results in order to verify your code.*/
 
 //Your function here...
-
+function sortArray(unsortedArray){
+  let newArray = []
+  for(let i =; i < unsortedArray.length; i++);{
+  let smallest = findMinValue(unsortedArray);
+  newArray.push(smallest)
+  unsortedArray.splice(unsortedArray.indexOf(smallest,1))
+}
+return newArray
+}
 /* BONUS MISSION: Refactor your sorting function to use recursion below:
  */
+
+
+
+
+function recursiveSort(unsortedArray
+  if(unsotedArray.length == 1))
 
 //Sample arrays for testing:
 let nums1 = [5, 10, 2, 42];
