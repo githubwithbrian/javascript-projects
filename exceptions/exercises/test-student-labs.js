@@ -6,7 +6,8 @@ function gradeLabs(labs) {
   }
 }
 
-let studentLabs = [
+
+let studentLabs2 = [
   {
     student: 'Carly',
     runLab: function (num) {
@@ -21,4 +22,5 @@ let studentLabs = [
   }
 ];
 
-gradeLabs(studentLabs);
+
+gradeLabs(studentLabs2);
